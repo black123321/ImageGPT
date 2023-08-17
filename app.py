@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 @app.route("/",methods=["GET","POST"])
 
