@@ -18,7 +18,7 @@ def index():
                     }
         )
         headers = {
-            'Authorization':'Token r8_aQNsgAxdpukViBXDD0hd9ggovKbHc4D4Hxod3',
+            'Authorization':'Token r8_O2Iq9VNgurylvcQLIhiG4XU5AlAXIfM3zGtZO',
             'Content-Type':'application/json'
         }
         output = requests.post('https://api.replicate.com/v1/predictions',data=body,headers=headers)
